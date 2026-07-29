@@ -1,0 +1,15 @@
+import canonicalLaneMathlib.AdmissibleClass
+import HautevilleHouse.DistributionFunctionsAssociatedAdditivePositiveFoundationCanonicalLaneLean.DistributionFunctionAdditiveFoundation
+
+namespace HautevilleHouse
+namespace DistributionFunctionsAssociatedAdditivePositiveFoundationCanonicalLaneLean
+
+structure AdmissibleObject where
+  foundation : AdditivePositiveFoundation
+  endpointSatisfied : Prop
+  remainderRecorded : Prop
+  gateWitness : endpointSatisfied ∨ remainderRecorded
+  conclusion : endpointSatisfied
+
+end DistributionFunctionsAssociatedAdditivePositiveFoundationCanonicalLaneLean
+end HautevilleHouse
